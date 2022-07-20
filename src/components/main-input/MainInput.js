@@ -6,6 +6,7 @@ import {
   TouchableOpacity,
   Text,
 } from "react-native";
+
 export default function MainInput({ onCreateTodoPress }) {
   const [text, onChangeText] = React.useState("");
 
@@ -28,8 +29,6 @@ export default function MainInput({ onCreateTodoPress }) {
     </View>
   );
 }
-
-console.log("JOPA");
 
 const styles = StyleSheet.create({
   wrapper: {

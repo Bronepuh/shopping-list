@@ -36,8 +36,6 @@ export default function Todo({ id, title, onDeleteTodoPress }) {
   );
 }
 
-console.log("JOPA");
-
 const styles = StyleSheet.create({
   todoWrapper: {
     flexDirection: "row",

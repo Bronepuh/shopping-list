@@ -34,7 +34,6 @@ export default function ShoppingList({
   };
 
   const renderItem = function (data) {
-    console.log(data.item);
     return (
       <TouchableHighlight
         onPress={() => console.log("You touched me")}
@@ -78,7 +77,6 @@ export default function ShoppingList({
       </TouchableHighlight>
     );
   };
-  console.log("JOPA");
 
   const renderHiddenItem = (data) => (
     <View style={styles.rowBack}>
