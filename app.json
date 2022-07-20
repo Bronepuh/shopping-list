@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "shopping-list",
+    "owner": "bronepuh",
     "slug": "shopping-list",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -22,7 +23,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/logo.png",
         "backgroundColor": "#FFFFFF"
       }
     },
